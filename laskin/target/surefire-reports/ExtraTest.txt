@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: ExtraTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.040 s <<< FAILURE! -- in ExtraTest
+ExtraTest.testNeliojuuri2 -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.ArithmeticException: Rounding necessary
+	at java.base/java.math.BigDecimal.commonNeedIncrement(BigDecimal.java:4717)
+	at java.base/java.math.BigDecimal.needIncrement(BigDecimal.java:4918)
+	at java.base/java.math.BigDecimal.divideAndRound(BigDecimal.java:4893)
+	at java.base/java.math.BigDecimal.setScale(BigDecimal.java:2958)
+	at java.base/java.math.BigDecimal.setScale(BigDecimal.java:3000)
+	at com.testi.Laskin.neliojuuri(Laskin.java:45)
+	at ExtraTest.testNeliojuuri2(ExtraTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
